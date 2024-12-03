@@ -14,7 +14,7 @@ public class Factorial {
      */
     public static int calculateFactorial(int number) {
         if (number < 0) {
-            throw new ArithmeticException("Factorial is not defined for negative numbers");
+            throw new ArithmeticException("Factorial not defined for negative numbers");
         } else if (number == 0 || number == 1) {
             return 1;
         } else {
